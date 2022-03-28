@@ -1,0 +1,182 @@
+
+body {
+margin: 0;
+font-family: sans-serif;
+font-size: 1.2em;
+
+}
+
+.navigacia {
+margin: 0;
+width: 5%;
+list-style-type: none;
+background: gray;
+height: 100%;
+position: fixed;
+padding: 0;
+transition: 1s width;
+text-align: right;
+
+}
+
+li a{
+text-decoration: none;
+color: white;
+display: block;
+padding: 1em;
+transition: 0.3s background;
+
+}
+
+
+li a:hover:not(.tusom){
+background: steelblue;
+
+}
+
+li {
+white-space: nowrap;
+overflow: hidden;
+}
+
+article {
+
+margin-left: 5%;
+padding: 1px 2em;
+transition: 1s margin-left;
+
+
+}
+
+article p {
+width: 50vw;
+text-align: justify;
+
+}
+
+.tusom {
+background: #eeeeee;
+color: black;
+font-weight: bold;
+}
+
+.navigacia:hover + article{
+margin-left: 15%;
+
+
+}
+
+.navigacia:hover{
+width: 15%;
+}
+
+.kocka, .rubik{
+width: 20vw;
+}
+
+.text{
+float: left;
+
+}
+div p {
+font-size: 1.3em;
+}
+.obrazky{
+float: left;
+display: flex;
+flex-direction: column;
+margin: 0 1em 0 3em;
+
+}
+
+
+table, td{
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+td {
+text-align: center;
+padding: 5px;
+}
+
+.kocka{
+margin: 3em 0 1.5em 0
+}
+
+.dvojkajpg, .trojkajpg, .sedmickajpg, .pyraminxjpg, .megaminxjpg , .skewbjpg, .squareonejpg{
+width: 75%;
+aspect-ratio: 1 / 1;
+padding-top: 2vw;
+
+}
+
+.kockyflex{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.dvojka, .trojka, .sedmicka, .pyraminx, .megaminx , .skewb, .squareone{
+text-align: center;
+background: steelblue;
+margin: 0.5em;
+font-size: 1.5em;
+flex-basis: 20%;
+aspect-ratio: 11 / 10;
+flex-grow: 1;
+}
+
+article div div{
+font-weight: bold;
+}
+
+.linky {
+font-weight: normal;
+}
+
+.styri{
+float: left;
+margin-left: 5vw;
+margin-top: 1.5vw;
+text-align: center;
+}
+
+.gridikdva{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+	
+}
+#uperm{
+	width: 400px;
+}
+
+#robot{
+	width: 400px;
+}
+.tabulka{
+float: left;
+}
+.stvorkajpg{
+width: 22vw;
+}
+
+.gridik{
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto;
+justify-content: space-evenly;
+text-align: center;
+font-size: 1.2em;
+
+}
+.gridik div img{
+width: 285px;
+
+}
+
+.linky {
+	clear: both;
+
+}
